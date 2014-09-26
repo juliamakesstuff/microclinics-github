@@ -1,0 +1,423 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2013-08-15 22:29+0200\n"
+"PO-Revision-Date: 2013-08-15 22:30+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ./\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../inc/page-top.php:23 ../inc/page-top.php:56
+msgid "Categorized as:"
+msgstr "Categorized as:"
+
+#: ../inc/page-top.php:30
+msgid "Tagged as:"
+msgstr "Tagged as:"
+
+#: ../inc/page-top.php:37 ../inc/page-top.php:42 ../inc/page-top.php:47
+msgid "Archive for"
+msgstr "Archive for"
+
+#: ../inc/page-top.php:52
+msgid "Archive"
+msgstr "Archive"
+
+#: ../inc/page-top.php:65
+msgid "Search Results for:"
+msgstr "Search Results for:"
+
+#: ../inc/page-top.php:71
+msgid "Ooops, 404 Not Found!"
+msgstr "Ooops, 404 Not Found!"
+
+#: ../inc/plugin-activation.php:164
+msgid "Install Required Plugins"
+msgstr "Install Required Plugins"
+
+#: ../inc/plugin-activation.php:165
+msgid "Install Plugins"
+msgstr "Install Plugins"
+
+#: ../inc/plugin-activation.php:166
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "Installing Plugin: %s"
+
+#: ../inc/plugin-activation.php:167
+msgid "Something went wrong."
+msgstr "Something went wrong."
+
+#: ../inc/plugin-activation.php:178 ../inc/plugin-activation.php:490
+msgid "Return to Required Plugins Installer"
+msgstr "Return to Required Plugins Installer"
+
+#: ../inc/plugin-activation.php:179 ../inc/plugin-activation.php:1846
+msgid "Plugin activated successfully."
+msgstr "Plugin activated successfully."
+
+#: ../inc/plugin-activation.php:180
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "All plugins installed and activated successfully. %1$s"
+
+#: ../inc/plugin-activation.php:517 ../inc/plugin-activation.php:2058
+msgid "Return to the Dashboard"
+msgstr "Return to the Dashboard"
+
+#: ../inc/plugin-activation.php:545
+#, php-format
+msgid "The following plugin was activated successfully: %s."
+msgstr "The following plugin was activated successfully: %s."
+
+#: ../inc/plugin-activation.php:704
+msgid "Dismiss this notice"
+msgstr "Dismiss this notice"
+
+#: ../inc/plugin-activation.php:1091
+msgid "External Link"
+msgstr "External Link"
+
+#: ../inc/plugin-activation.php:1096
+msgid "Private Repository"
+msgstr "Private Repository"
+
+#: ../inc/plugin-activation.php:1099
+msgid "Pre-Packaged"
+msgstr "Pre-Packaged"
+
+#: ../inc/plugin-activation.php:1103
+msgid "WordPress Repository"
+msgstr "WordPress Repository"
+
+#: ../inc/plugin-activation.php:1106
+msgid "Required"
+msgstr "Required"
+
+#: ../inc/plugin-activation.php:1106
+msgid "Recommended"
+msgstr "Recommended"
+
+#: ../inc/plugin-activation.php:1109
+msgid "Not Installed"
+msgstr "Not Installed"
+
+#: ../inc/plugin-activation.php:1111
+msgid "Installed But Not Activated"
+msgstr "Installed But Not Activated"
+
+#: ../inc/plugin-activation.php:1281
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+
+#: ../inc/plugin-activation.php:1297
+msgid "Plugin"
+msgstr "Plugin"
+
+#: ../inc/plugin-activation.php:1298
+msgid "Source"
+msgstr "Source"
+
+#: ../inc/plugin-activation.php:1299
+msgid "Type"
+msgstr "Type"
+
+#: ../inc/plugin-activation.php:1300
+msgid "Status"
+msgstr "Status"
+
+#: ../inc/plugin-activation.php:1318
+msgid "Install"
+msgstr "Install"
+
+#: ../inc/plugin-activation.php:1319
+msgid "Activate"
+msgstr "Activate"
+
+#: ../inc/plugin-activation.php:1829
+msgid "Install package not available."
+msgstr "Install package not available."
+
+#: ../inc/plugin-activation.php:1830
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+
+#: ../inc/plugin-activation.php:1831
+msgid "Unpacking the package&#8230;"
+msgstr "Unpacking the package&#8230;"
+
+#: ../inc/plugin-activation.php:1832
+msgid "Installing the plugin&#8230;"
+msgstr "Installing the plugin&#8230;"
+
+#: ../inc/plugin-activation.php:1833
+msgid "Plugin install failed."
+msgstr "Plugin install failed."
+
+#: ../inc/plugin-activation.php:1834
+msgid "Plugin installed successfully."
+msgstr "Plugin installed successfully."
+
+#: ../inc/plugin-activation.php:1845
+msgid "Plugin activation failed."
+msgstr "Plugin activation failed."
+
+#: ../inc/plugin-activation.php:1955
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+
+#: ../inc/plugin-activation.php:1956
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s installed and activated successfully."
+
+#: ../inc/plugin-activation.php:1956 ../inc/plugin-activation.php:1965
+msgid "Show Details"
+msgstr "Show Details"
+
+#: ../inc/plugin-activation.php:1956 ../inc/plugin-activation.php:1965
+msgid "Hide Details"
+msgstr "Hide Details"
+
+#: ../inc/plugin-activation.php:1957
+msgid "All installations and activations have been completed."
+msgstr "All installations and activations have been completed."
+
+#: ../inc/plugin-activation.php:1958
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+
+#: ../inc/plugin-activation.php:1962
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+
+#: ../inc/plugin-activation.php:1963
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "An error occurred while installing %1$s: <strong>%2$s</strong>."
+
+#: ../inc/plugin-activation.php:1964
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "The installation of %1$s failed."
+
+#: ../inc/plugin-activation.php:1965
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s installed successfully."
+
+#: ../inc/plugin-activation.php:1966
+msgid "All installations have been completed."
+msgstr "All installations have been completed."
+
+#: ../inc/plugin-activation.php:1967
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Installing Plugin %1$s (%2$d/%3$d)"
+
+#: ../inc/post-meta.php:11
+msgid "Posted on:"
+msgstr "Posted on:"
+
+#: ../inc/post-meta.php:16
+msgid "by"
+msgstr "by"
+
+#: ../inc/post-meta.php:21
+msgid "in"
+msgstr "in"
+
+#: ../inc/post-meta.php:25
+msgid "tagged as "
+msgstr "tagged as "
+
+#: ../inc/metabox/inc/classes/meta-box.php:285
+msgid "Please correct the errors highlighted below and try again."
+msgstr "Please correct the errors highlighted below and try again."
+
+#: ../inc/metabox/inc/classes/meta-box.php:343
+msgid "+"
+msgstr "+"
+
+#: ../inc/metabox/inc/classes/meta-box.php:365
+msgid "&#8211;"
+msgstr "&#8211;"
+
+#: ../inc/metabox/inc/fields/file.php:65
+msgid "Error: Cannot delete file"
+msgstr "Error: Cannot delete file"
+
+#: ../inc/metabox/inc/fields/image.php:64
+msgid "Order saved"
+msgstr "Order saved"
+
+#: ../inc/metabox/inc/fields/map.php:46
+msgid "Find Address"
+msgstr "Find Address"
+
+#: ../inc/metabox/inc/fields/select-advanced.php:82
+msgid "Select a value"
+msgstr "Select a value"
+
+#: ../inc/portfolio/related-portfolio.php:35
+msgid "Related Projects"
+msgstr "Related Projects"
+
+#: ../inc/portfolio/related-portfolio.php:44
+msgid "View"
+msgstr "View"
+
+#: ../inc/portfolio/single.php:45
+msgid "Project Details"
+msgstr "Project Details"
+
+#: ../inc/portfolio/single.php:53
+msgid "Client Name:"
+msgstr "Client Name:"
+
+#: ../inc/portfolio/single.php:57
+msgid "Categories:"
+msgstr "Categories:"
+
+#: ../inc/portfolio/single.php:61
+msgid "Project Url:"
+msgstr "Project Url:"
+
+#: ../inc/portfolio/single.php:63
+msgid "Launch Project"
+msgstr "Launch Project"
+
+#: ../inc/post-formats/content-audio.php:17
+#: ../inc/post-formats/content-gallery.php:26
+#: ../inc/post-formats/content-video.php:14 ../inc/post-formats/content.php:20
+#, php-format
+msgid "Permalink la %s"
+msgstr "Permalink la %s"
+
+#: ../inc/post-formats/content-audio.php:24
+#: ../inc/post-formats/content-gallery.php:33
+#: ../inc/post-formats/content-video.php:21 ../inc/post-formats/content.php:27
+msgid "Read More"
+msgstr "Read More"
+
+#: ../inc/post-formats/single-audio.php:27
+#: ../inc/post-formats/single-gallery.php:37
+#: ../inc/post-formats/single-video.php:25 ../inc/post-formats/single.php:31
+msgid "&larr; Previous Post"
+msgstr "&larr; Previous Post"
+
+#: ../inc/post-formats/single-audio.php:29
+#: ../inc/post-formats/single-gallery.php:39
+#: ../inc/post-formats/single-video.php:27 ../inc/post-formats/single.php:33
+msgid "Next Post &rarr;"
+msgstr "Next Post &rarr;"
+
+#: ../inc/widgets/flickr.php:17
+msgid "A widget that displays your flickr photos."
+msgstr "A widget that displays your flickr photos."
+
+#: ../inc/widgets/flickr.php:19
+msgid "Flickr Photos"
+msgstr "Flickr Photos"
+
+#: ../inc/widgets/flickr.php:72 ../inc/widgets/popular-posts.php:93
+#: ../inc/widgets/recent-posts.php:93 ../inc/widgets/social-icons.php:99
+msgid "Title:"
+msgstr "Title:"
+
+#: ../inc/widgets/flickr.php:80
+msgid "Flickr ID:"
+msgstr "Flickr ID:"
+
+#: ../inc/widgets/flickr.php:88
+msgid "Type (user or group):"
+msgstr "Type (user or group):"
+
+#: ../inc/widgets/flickr.php:99
+msgid "Display (random or latest):"
+msgstr "Display (random or latest):"
+
+#: ../inc/widgets/flickr.php:110
+msgid "Number of images to display:"
+msgstr "Number of images to display:"
+
+#: ../inc/widgets/popular-posts.php:17
+msgid "A widget to display the popular posts."
+msgstr "A widget to display the popular posts."
+
+#: ../inc/widgets/popular-posts.php:19
+msgid "Popular Posts"
+msgstr "Popular Posts"
+
+#: ../inc/widgets/popular-posts.php:101 ../inc/widgets/recent-posts.php:101
+msgid "Post Count"
+msgstr "Post Count"
+
+#: ../inc/widgets/recent-posts.php:17
+msgid "A widget to display the recent posts."
+msgstr "A widget to display the recent posts."
+
+#: ../inc/widgets/recent-posts.php:19
+msgid "Recent Posts"
+msgstr "Recent Posts"
+
+#: ../inc/widgets/social-icons.php:17
+msgid "A widget that displays icons from your social profiles."
+msgstr "A widget that displays icons from your social profiles."
+
+#: ../inc/widgets/social-icons.php:19
+msgid "Social Icons"
+msgstr "Social Icons"
+
+#: ../inc/widgets/social-icons.php:105
+msgid "Facebook Url:"
+msgstr "Facebook Url:"
+
+#: ../inc/widgets/social-icons.php:110
+msgid "Twitter Url:"
+msgstr "Twitter Url:"
+
+#: ../inc/widgets/social-icons.php:115
+msgid "LinkedIn Url:"
+msgstr "LinkedIn Url:"
+
+#: ../inc/widgets/social-icons.php:120
+msgid "Google Plus Url:"
+msgstr "Google Plus Url:"
+
+#: ../inc/widgets/social-icons.php:125
+msgid "Youtube Url:"
+msgstr "Youtube Url:"
+
+#: ../inc/widgets/social-icons.php:130
+msgid "Vimeo Url:"
+msgstr "Vimeo Url:"
+
+#: ../inc/widgets/social-icons.php:135
+msgid "Pinterest Url:"
+msgstr "Pinterest Url:"
+
+#: ../inc/widgets/social-icons.php:140
+msgid "RSS Url:"
+msgstr "RSS Url:"

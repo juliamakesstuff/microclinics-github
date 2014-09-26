@@ -1,0 +1,91 @@
+
+#header {
+	height: 90px;
+}
+
+.main-menu {
+	margin-top: 22.5px;
+}
+.site-title {
+	margin-top: 36px;
+}
+
+
+.sf-menu li a:hover,
+.current-menu-item a,
+.sf-menu li.sfHover a,
+.sd-styled-title:before,
+.sidebar-widget .sd-tab-titles {
+	border-bottom: 2px solid #81d742;
+}
+.sd-donate a,
+.sf-menu li ul,
+.sf-menu li li ul,
+.sd-intro-box,
+.post-rating,
+.sd-newsletter,
+.sd-pagination .current,
+.sd-pagination .inactive:hover,
+.sd-pagination .pagi-first:hover,
+.sd-pagination .pagi-last:hover,
+.sd-pagination .pagi-previous:hover,
+.sd-pagination .pagi-next:hover,
+.share-entry ul li.share-email a:hover,
+.previous-article a:hover,
+.next-article a:hover,
+#footer .wpcf7-form input[type="submit"],
+#footer .wpcf7-form input[type="submit"]:active,
+#footer .wpcf7-form input[type="reset"]:active,
+#footer .wpcf7-form input[type="button"]:active,
+.sd-event-date-time i,
+.sd-event-location i,
+.sd-author-box {
+	background-color: #81d742;
+}
+
+a:hover,
+.site-title a:hover,
+.sd-donate-button,
+.footer-sidebar-widget a:hover,
+.copyright a:hover,
+.entry-title a:hover,
+.sidebar-widget a:hover,
+.entry-meta ul li a:hover,
+.sd-list-style li:before,
+.comment-text cite a:hover {
+	color: #81d742;
+}
+.sd-fund-percent .skill,
+.sidebar-widget .sd-tab-titles .ui-tabs-selected a,
+.sidebar-widget .sd-tab-titles .ui-tabs-active a,
+.sd-tab-titles .ui-tabs-selected a,
+.sd-tab-titles .ui-tabs-active a,
+.pricing-featured {
+	background-color: #81d742 !important;
+}
+
+.respond-inputs input:focus,
+.respond-textarea textarea:focus,
+#footer .wpcf7-form input[type="text"]:focus,
+#footer .wpcf7-form input[type="email"]:focus,
+#footer .wpcf7-form textarea:focus,
+.wpcf7-form input[type="text"]:focus,
+.wpcf7-form input[type="email"]:focus,
+.wpcf7-form textarea:focus {
+	border: 1px solid #81d742;
+}
+.tooltip-content {
+	background: #81d742 !important;	
+}
+
+.tooltip-content:after,
+.tooltip-content:before {
+	border-top: 15px solid #81d742 !important;
+}
+.tooltip-content:before {
+	border-top-color: #81d742 !important;
+}
+.toggle-title span:before,
+.ui-accordion-header span:before {
+	color: #81d742 !important;
+}

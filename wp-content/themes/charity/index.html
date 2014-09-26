@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>Charity Documentation</title>
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+<link rel="stylesheet" href="stylesheets/normalize.css">
+<link rel="stylesheet" href="stylesheets/styles.css">
+<!-- Google Font -->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+<!--[if lt IE 9]>
+		<script src="js/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+<div class="header-bar">
+	<div id="logo" class="four columns"><a href="http://skat.tf/" title="Skat Design" target="_blank" /><img src="images/logo.png" alt="logo"></a></div>
+</div>
+<div id="wrapper" class="container clearfix">
+	<div id="header" class="clearfix">
+		<h3>Charity Theme Documentation</h3>
+	</div>
+	<div class="sixteen columns">
+		<div id="intro" class="info box">
+			<h2>Thank You for Purchasing Charity Premium WordPress Theme.</h2>
+			<p>First of all a huge <strong>THANK YOU</strong> for purchasing Charity. If you have any questions that are beyond the scope of this help file, please don't hesitate to contact me. You can also follow me on Themeforest to keep track of all my theme updates and upcoming themes.<br />
+				Thanks so much!</p>
+		</div>
+		<div class="row buttons">
+			<div class="four columns alpha"><a href="http://skat.tf/support" class="button" target="_blank">Contact Support</a></div>
+			<div class="four columns"><a href="http://twitter.com/skatdesign" class="button" target="_blank">Follow on Twitter</a></div>
+			<div class="four columns"><a href="http://facebook.com/skatdesign" class="button" target="_blank">Like on Facebook</a></div>
+			<div class="four columns omega"><a href="http://themeforest.net/user/SkatDesign/portfolio?ref=SkatDesign" class="button" target="_blank">Other Themes</a></div>
+		</div>
+		<div id="nav" class="clearfix">
+			<h2 class="separator">Table of Contents</h2>
+			<div class="one-third alpha column">
+				<ol>
+					<li><a href="#first-steps">01. First Steps</a></li>
+					<li><a href="#installation">02. Installation of WordPress</a></li>
+					<li><a href="#installation-wp">03. Theme Installation WordPress</a></li>
+					<li><a href="#installation-ftp">04. Theme Installation FTP</a></li>
+					<li><a href="#install-plugins">05. Install & Setup Plugins</a></li>
+					<li><a href="#import-demo">06. Importing Demo Data (Optional)</a></li>
+					<li><a href="#theme-options">07. Theme Options</a></li>
+					<li><a href="#setting-pages">08. Setting up new Pages</a></li>
+				</ol>
+			</div>
+			<div class="one-third column">
+				<ol>
+					<li><a href="#predefined-pages">09. Predefined Page Layouts</a></li>
+					<li><a href="#setup-blog">10. Setting up Blog Page & Home Page</a></li>
+					<li><a href="#menu-reading">11. Setting up Menu</a></li>
+					<li><a href="#custom-sidebars">12. Custom Sidebars</a><li>
+					<li><a href="#customwidgets">13. Custom Widgets</a></li>
+					<li><a href="#slider">14. Setting up Sliders</a></li>
+				</ol>
+			</div>
+			<div class="one-third omega column">
+				<ol>
+					<li><a href="#shortcodes">15. Shortcodes</a></li>
+					<li><a href="#campaign">16. Campaign Settings</a></li>
+					<li><a href="#translation">17. Translation</a></li>
+					<li><a href="#css-javascript">18. CSS &amp; Javascript</a></li>
+					<li><a href="#credits">19. Credits</a></li>
+				</ol>
+			</div>
+		</div>
+		<h2 id="first-steps" class="separator">01. First Steps</h2>
+		<p>Before you start playing around with the theme, let's check what you've downloaded so far:</p>
+		<ul>
+			<li><strong>Documentation</strong> - <em>That's where you are right now.</em></li>
+			<li><strong>License</strong> - <em>Some info's about theme licencing terms</em></li>
+			<li><strong>PSD</strong> - <em>All Photoshop (.psd) files</em></li>
+			<li><strong>SampleData</strong> - <em>Import Data to get the exact Site as the Preview Page</em></li>
+			<li><strong>Upload</strong> - <em>This is where all Theme files are (zipped & unzipped format)</em></li>
+		</ul>
+		<h2 id="installation" class="separator">02. Installation of WordPress</h2>
+		<p>First of all if you are all new to WordPress, I would recommend to learn a little bit about it before you get started. Here are some nice Resources on how to get started with WordPress.</p>
+		<ul>
+			<li><a href="http://codex.wordpress.org/First_Steps_With_WordPress" title="First Steps With WordPress">First Steps With WordPress</a></li>
+			<li><a href="http://codex.wordpress.org/FAQ_New_To_WordPress" title="FAQ New To WordPress">FAQ New To WordPress</a></li>
+			<li><a href="http://wp.tutsplus.com/sessions/wp101-basix-training/" title="WP101 Basix Training">WP101 Basix Training</a></li>
+		</ul>
+		<br/ >
+		<p><strong>Here's also a short video of the installation process</strong></p>
+		<iframe src="http://player.vimeo.com/video/17147778?title=0&amp;byline=0&amp;portrait=0&amp;color=D0D9E0" width="940" height="528" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+		<h2 id="installation-wp" class="separator">03. Theme Installation WordPress</h2>
+		<p>The first option how to install this Theme would be to directly upload the charity.zip file via WordPress Theme Uploader.</p>
+		<img class="right" src="images/wp-installation.png">
+		<ul>
+			<li>Log into your WordPress backend</li>
+			<li>Navigate to <strong>Appearance > Themes</strong></li>
+			<li>Click <strong>Install Themes</strong></li>
+			<li>Click <strong>Upload</strong></li>
+			<li>Now you just need to find the "Charity.zip" in the Upload folder and hit <strong>Install now</strong>.</li>
+		</ul>
+		<p>If you are experiencing any issues during the installation I would recommend to check out this <a href="http://support.envato.com/index.php?/Knowledgebase/Article/View/269/0/my-wordpress-theme-isnt-working-what-should-i-do" target="_blank">Screencast by Envato</a></p>
+		<div class="clear"></div>
+		<p><strong>Here's also a short video of the Theme Installation process</strong></p>
+		<div class="sd-video">
+		<iframe src="http://www.youtube.com/embed/GVEbQYciC5Y?hd=1&amp;vq=hd1080&amp;rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+		</div>
+		
+		<h2 id="installation-ftp" class="separator">04. Theme Installation FTP</h2>
+		<p>The second option how to install this Theme would be the upload via <strong>FTP manager</strong>. It really dosen't matter which of the two ways you choose, just choose the one you feel more comfortable with.</p>
+		<ul>
+			<li>Login to your FTP account and navigate to your WordPress Installation directory</li>
+			<li>Navigate to the folder <code>/wp-content/themes</code></li>
+			<li>Upload the &quot;Charity&quot; folder (not the .zip file). This is the folder located inside the "Upload" folder in the zip file you've downloaded from Themeforest.</li>
+			<li>Now log into your WordPress backend</li>
+			<li>Navigate to <strong>Appearance > Themes</strong></li>
+			<li>Find the Theme and click <strong>Activate</strong></li>
+		</ul>
+		<p>If you are experiencing any issues during the installation I would recommend to check out this <a href="http://support.envato.com/index.php?/Knowledgebase/Article/View/269/0/my-wordpress-theme-isnt-working-what-should-i-do" target="_blank">Screencast by Envato</a></p>
+		<h2 id="install-plugins" class="separator">05. Install & Setup Plugins</h2>
+		<p>So at this stage you have probably noticed a warning, asking you to install recommended plugins. This is needed to get additional functionality to the theme. Installing that is very simple, you just need to click <strong>Begin installing plugins</strong> and you will be redirected to the plugin installation page where you can install any Plugin you want and need.</p>
+		<h2 id="import-demo" class="separator">06. Importing Demo Data (Optional)</h2>
+		<p>This Theme includes a Demo Data .xml file which allows you to upload some dummy content to your site to help you get started with the Theme and get to know the functionality. Please note, that the .xml file doesn't include images or the slider data. See the slider section & screencast of this documentation on how to set them up.</p>
+		<ul>
+			<li>Log into your WordPress backend</li>
+			<li>Navigate to <strong>Tools > Import</strong></li>
+			<li>Click on "WordPress". If you haven't imported anything yet, you will need to install "Importer" plugin.</li>
+			<li>Select the Charity.xml file in the SampleData folder in the zip file you've downloaded from Themeforest.</li>
+			<li>Now make sure to Select the Menu in <strong>Appearance > Menus</strong> and set up "Home" as front page and leave the posts page blank (it should display -Select-),  under <strong>Settings > Reading</strong>.</li>
+		</ul>
+		<p class="info">Be aware that downloading Dummy Content may take a while, depending on the speed of your internet connection!</p>
+		<h2 id="theme-options" class="separator">07. Theme Options</h2>
+		<p>If you want to change the general Options of the Theme, go to your WordPress Admin Area to<strong> Appearance > Theme Option</strong>s. Here you have a tabbed Navigation where you can change a lot of Options of your new Theme (General, Styling, Typography etc.)</p>
+		<p><strong>Notice:</strong> Before adjusting the different settings, you should first click on the <strong>Save Options</strong> button, to insert all default data to the database and make sure everything looks good.</p>
+		<h2 id="setting-pages" class="separator">08. Setting up new Pages</h2>
+		<p>Your new Theme comes with some awesome custom page layouts. These layouts can be used on any page you create to give them some special functionalities. To set up a custom page layout go to your WordPress Admin Area and navigate to<strong> Pages > Add New</strong>. Now you can choose any template you like from the "Page Attributes" on the right side.</p>
+		<ul>
+			<li><strong>Default Template</strong><br />
+				The default page Template with a page sidebar on the right side.<br />
+				<br />
+			</li>
+			<li><strong>Blog</strong><br />
+				This is a Blog Layout with small images. (You can change the Blog Sidebar Layout (left or right) under <strong>Appreance > Theme Options > Blog</strong><br />
+				<br />
+			</li>
+			<li><strong>Blog Masonry</strong><br />
+				This is a Blog Layout with small images that make use of the masonry effect to arrange your posts in the page.<br />
+				<br />
+			</li>
+			<li><strong>Blog News Style</strong><br />
+				This is a Blog Layout with a large image for the first post and small images, arranged in 2 columns, for the rest of the posts.<br />
+				<br />
+			</li>
+			<li><strong>Blog News Style 2</strong><br />
+				This is a Blog Layout with a large image for the first post and small images for the rest of the posts.<br />
+				<br />
+			</li>
+			<li><strong>Page: Full Width</strong><br />
+				A Full-Width template without a sidebar.<br />
+				<br />
+			</li>
+			<li><strong>Page: Events</strong><br />
+				This is a page where your events are displayed.<br />
+				<br />
+			</li>
+		</ul>
+		<img src="images/page.png" alt="page" width="940" height="1168">
+		<h2 id="predefined-pages" class="separator">09. Predefined Page Layouts</h2>
+		<p>All Pages on the Demo Page are created through a combination of shortcodes.</p>
+		To use one of our pre-designed layouts, just copy and paste our demo code into the Editor of your page. Make sure to paste them in "HTML" Mode (not Visual). Also choose the "Full-Width" Template in the "Page Attributes".
+		<div class="hr2"></div>
+		<h3>Home</h3>
+		<textarea class="codecopy">[sd_full_bg bg="#ffffff"]
+[sd_centered]
+<h3 class="sd-center sd-size6">WE'VE REACHED SO FAR</h3>
+[divider marginbottom="20"]
+[sd_percentage]
+[divider marginbottom="40"]
+<h3 class="sd-center sd-size6">LATEST DONATIONS</h3>
+[divider marginbottom="20"]
+[sd_donations]
+
+[/sd_centered]
+[/sd_full_bg]
+
+[sd_full_bg]
+[divider]
+[sd_centered]
+[divider margintop="0"]
+<h2 class="sd-center sd-size1">HOW CAN YOU HELP?</h2>
+[divider]
+[one_half]
+<h3>HELP FOR CAUSE</h3>
+<p>Fourth Estate members are Invisible Children's most faithful supporters. By giving what they can each month they advance all aspects of our mission to end the atrocities of Joseph Kony and his rebel army.</p>
+[divider marginbottom="0"]
+[one_fourth]
+<img class="sd-margin-bottom" src="http://charity.skat.tf/wp-content/uploads/sites/7/2014/02/media.jpg" alt="" title="" />
+<h4 class="sd-center">MEDIA</h4>
+[/one_fourth]
+
+[one_fourth]
+<img class="sd-margin-bottom" src="http://charity.skat.tf/wp-content/uploads/sites/7/2014/02/mobilization.jpg" alt="" title="" />
+<h5 class="sd-center">MOBILIZATION</h5>
+[/one_fourth]
+
+
+[one_fourth]
+<img class="sd-margin-bottom" src="http://charity.skat.tf/wp-content/uploads/sites/7/2014/02/projection.jpg" alt="" title="" />
+<h5 class="sd-center">PROJECTION</h5>
+[/one_fourth]
+
+
+[one_fourth_last]
+<img class="sd-margin-bottom" src="http://charity.skat.tf/wp-content/uploads/sites/7/2014/02/support.jpg" alt="" title="" />
+<h5 class="sd-center">SUPPORT</h5>
+[/one_fourth_last]
+
+
+[/one_half]
+
+[one_half_last]
+[sd_video id="51eZ2IIPNas" type="youtube"]
+[/one_half_last]
+[divider margintop="0"]
+[/sd_centered]
+
+[/sd_full_bg]
+[divider]
+[sd_centered]
+<h3 class="sd-center sd-size6">MOST RECENT UPDATES</h3>
+[divider]
+[sd_blog]
+
+[/sd_centered]
+</textarea>
+
+<div class="hr2"></div>
+		<h3>Contact</h3>
+		<textarea class="codecopy">[sd_centered]
+
+<p class="sd-center">Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus.</p>
+
+[divider margintop="0"]
+
+[one_half]
+<h3 class="sd-styled-title">Send Us a Message</h3>
+[divider margintop="0" marginbottom="20"]
+[contact-form-7 id="11" title="Contact form 1"]
+[/one_half]
+
+[one_half_last]
+<h3 class="sd-styled-title">Address &amp; Contact Details</h3>
+[divider margintop="0" marginbottom="20"]
+<div class="sd-center">
+<i class="fa fa-map-marker fa-3x"></i><br /><br />
+<p>Level 13, 2 Elizabeth St, Melbourne Victoria 3000 Ahmedabad</p>
+
+[divider margintop="0"]
+<i class="fa fa-phone-square fa-3x"></i><br /><br />
+<p>+1 (800)-123-4567 <br/>+1 (505)-123-4567</p>
+
+[divider margintop="0"]
+<i class="fa fa-envelope fa-3x"></i><br /><br />
+<p><a href="mailto:contact@charitywebsite.com">contact@charitywebsite.com</a> <br/><a href="mailto:help@charitywebsite.com">help@charitywebsite.com</a></p>
+
+
+</div>
+[/one_half_last]
+
+[divider margintop="0"]
+
+[googlemap id="contactmap" address="Munchen" width="1170" height="400" maptype="ROADMAP" marker="yes" infowindow="Charity Home Sweet Home"]
+
+[/sd_centered]
+</textarea>
+<div class="hr2"></div>
+		<h3>FAQ</h3>
+		<textarea class="codecopy"><h3>Everything you need to know about this Premium WordPress Theme</h3>
+
+<p>If you have any concerns please read this collection of frequently asked questions before contacting us. If you are still unclear about something feel free to contact us. </p>
+
+[divider]
+
+[one_half]
+[toggle title="Do you offer after-sale support?"] Yes, I provide lifetime support through my <a href="http://skat.tf/support">support forums</a>, the comments section of the theme, email and twitter. [/toggle]
+[toggle title="Will your theme work with the latest version of WordPress?"] Yes, it works with the latest WordPress version and it is also backward compatible down to WP 3.0 [/toggle]
+[toggle title="Is the theme widget ready?"] Yes, the theme has widget ready sidebars. There are also some custom widgets included. [/toggle]
+[toggle title="Is the theme translation ready?"] Yes, the theme is localized. [/toggle]
+[toggle title="Is there any documentation of the theme?"] Of course. The theme has extensive documentation. You can find the help files inside the archive you've downloaded. In the "help" folder open the "index" file. [/toggle]
+[/one_half]
+
+
+[one_half_last]
+[toggle title="Is your theme SEO Optimized?"] Yes, the theme is SEO optimized and it follows the latest trends in onsite optimization. Search Engine Optimization has been made a priority when designing the theme. [/toggle]
+[toggle title="Can I easily upload my own Logo?"] Yes, you can easily upload your logo through the options panel and then simply adjust it's margins and you're done. [/toggle]
+[toggle title="Are PSDs (layered Photoshop files) included?"] Yes, the .psd source for the homepage is included. [/toggle]
+[toggle title="Is your theme cross-browser compatible"] Absolutely. I guarantee perfect compatibility on most browser and even old ones down to IE7. [/toggle]
+[toggle title="Can I change the theme Colors?"] Absolutely. You can color-pick the theme's color from the options panel. [/toggle]
+[/one_half_last]
+</textarea>
+<div class="hr2"></div>
+		<h3>Intro Box Demo Content</h3>
+		<textarea class="codecopy">[one_third]
+<img class="pull-left" src="http://charity.skat.tf/wp-content/uploads/sites/7/2014/02/icon-wallet.png" alt="" />
+<h3 class="sd-styled-title">DONATE NOW</h3>
+<p>Vestibulum mollis convallis laoreet. Sed vestibulum lacus non...</p>
+[/one_third]
+
+[one_third]
+<img class="pull-left" src="http://charity.skat.tf/wp-content/uploads/sites/7/2014/02/icon-apple.png" alt="" />
+<h3 class="sd-styled-title">GIVE SCHOLERSHIP</h3>
+<p>Vestibulum mollis convallis laoreet. Sed vestibulum lacus non...</p>
+[/one_third]
+
+[one_third_last]
+<img class="pull-left" src="http://charity.skat.tf/wp-content/uploads/sites/7/2014/02/icon-heart.png" alt="" />
+<h3 class="sd-styled-title">SAVE CHILDREN</h3>
+<p>Vestibulum mollis convallis laoreet. Sed vestibulum lacus non...</p>
+[/one_third_last]</textarea>
+<div class="hr2"></div>
+		<h3>Demo Page Theme Option Data</h3>
+		<textarea class="codecopy">YTo2MDp7aTowO2I6MDtzOjc6ImJhY2t1cHMiO047czo5OiJzbW9mX2luaXQiO3M6MzE6IkZyaSwgMDcgRmViIDIwMTQgMjM6Mzk6MzMgKzAwMDAiO3M6MTQ6InBlcm1pc3Npb25fYm94IjtzOjA6IiI7czoxODoiZ2VuZXJhbF9yZXNwb25zaXZlIjtzOjMzOiI8aDQ+UmVzcG9uc2l2ZSAoTW9iaWxlKSBNb2RlPC9oND4iO3M6MTU6InJlc3BvbnNpdmVfbW9kZSI7czoxOiIxIjtzOjIxOiJob21lcGFnZV9zbGlkZXJfdGl0bGUiO3M6MjQ6IjxoND5Ib21lcGFnZSBTbGlkZXI8L2g0PiI7czoxMToiaG9tZV9zbGlkZXIiO3M6MToiMSI7czoyMDoiaG9tZXBhZ2VfaW50cm9fdGl0bGUiO3M6MTg6IjxoND5JbnRybyBCb3g8L2g0PiI7czo5OiJpbnRyb19ib3giO3M6MToiMSI7czoxNDoiaW50cm9fYm94X3R5cGUiO3M6NToiYm94ZWQiO3M6MTc6ImludHJvX2JveF9jb250ZW50IjtzOjc5NjoiW29uZV90aGlyZF0NCjxpbWcgY2xhc3M9InB1bGwtbGVmdCIgc3JjPSJodHRwOi8vY2hhcml0eS5za2F0LnRmL3dwLWNvbnRlbnQvdXBsb2Fkcy9zaXRlcy83LzIwMTQvMDIvaWNvbi13YWxsZXQucG5nIiBhbHQ9IiIgLz4NCjxoMyBjbGFzcz0ic2Qtc3R5bGVkLXRpdGxlIj5ET05BVEUgTk9XPC9oMz4NCjxwPlZlc3RpYnVsdW0gbW9sbGlzIGNvbnZhbGxpcyBsYW9yZWV0LiBTZWQgdmVzdGlidWx1bSBsYWN1cyBub24uLi48L3A+DQpbL29uZV90aGlyZF0NCg0KW29uZV90aGlyZF0NCjxpbWcgY2xhc3M9InB1bGwtbGVmdCIgc3JjPSJodHRwOi8vY2hhcml0eS5za2F0LnRmL3dwLWNvbnRlbnQvdXBsb2Fkcy9zaXRlcy83LzIwMTQvMDIvaWNvbi1hcHBsZS5wbmciIGFsdD0iIiAvPg0KPGgzIGNsYXNzPSJzZC1zdHlsZWQtdGl0bGUiPkdJVkUgU0NIT0xFUlNISVA8L2gzPg0KPHA+VmVzdGlidWx1bSBtb2xsaXMgY29udmFsbGlzIGxhb3JlZXQuIFNlZCB2ZXN0aWJ1bHVtIGxhY3VzIG5vbi4uLjwvcD4NClsvb25lX3RoaXJkXQ0KDQpbb25lX3RoaXJkX2xhc3RdDQo8aW1nIGNsYXNzPSJwdWxsLWxlZnQiIHNyYz0iaHR0cDovL2NoYXJpdHkuc2thdC50Zi93cC1jb250ZW50L3VwbG9hZHMvc2l0ZXMvNy8yMDE0LzAyL2ljb24taGVhcnQucG5nIiBhbHQ9IiIgLz4NCjxoMyBjbGFzcz0ic2Qtc3R5bGVkLXRpdGxlIj5TQVZFIENISUxEUkVOPC9oMz4NCjxwPlZlc3RpYnVsdW0gbW9sbGlzIGNvbnZhbGxpcyBsYW9yZWV0LiBTZWQgdmVzdGlidWx1bSBsYWN1cyBub24uLi48L3A+DQpbL29uZV90aGlyZF9sYXN0XSI7czoxOToiaGVhZGVyX2hlaWdodF90aXRsZSI7czoyMjoiPGg0PkhlYWRlciBIZWlnaHQ8L2g0PiI7czoxMzoiaGVhZGVyX2hlaWdodCI7czoyOiI5MCI7czoxMDoibG9nb190aXRsZSI7czoxMzoiPGg0PkxvZ288L2g0PiI7czo0OiJsb2dvIjtzOjY2OiJodHRwOi8vY2hhcml0eS5za2F0LnRmL3dwLWNvbnRlbnQvdXBsb2Fkcy9zaXRlcy83LzIwMTQvMDIvbG9nby5wbmciO3M6MTU6ImxvZ29fdG9wX21hcmdpbiI7czoyOiIzNiI7czoxMjoiZm9vdGVyX3RpdGxlIjtzOjI0OiI8aDQ+Rm9vdGVyIFNldHRpbmdzPC9oND4iO3M6MTc6IndpZGdldGl6ZWRfZm9vdGVyIjtzOjE6IjEiO3M6MjM6ImZvb3Rlcl9uZXdzbGV0dGVyX3RpdGxlIjtzOjE5OiI8aDQ+TmV3c2xldHRlcjwvaDQ+IjtzOjE1OiJuZXdzbGV0dGVyX2Zvcm0iO3M6MToiMSI7czoxNjoibmV3c2xldHRlcl90aXRsZSI7czoxODoiTkVXU0xFVFRFUiBTSUdOLVVQIjtzOjE1OiJuZXdzbGV0dGVyX2Rlc2MiO3M6NjI6IlZlc3RpYnVsdW0gbW9sbGlzIGNvbnZhbGxpcyBsYW9yZWV0LiAgU2VkIHZlc3RpYnVsdW0gbGFjdXMgbm9uIjtzOjE1OiJuZXdzbGV0dGVyX2NvZGUiO3M6MTI0NjoiPCEtLSBCZWdpbiBNYWlsQ2hpbXAgU2lnbnVwIEZvcm0gLS0+DQo8ZGl2IGlkPSJtY19lbWJlZF9zaWdudXAiPg0KPGZvcm0gYWN0aW9uPSJodHRwOi8vc2thdC51czcubGlzdC1tYW5hZ2UuY29tL3N1YnNjcmliZS9wb3N0P3U9NWVmNTVhYmVlMDI3Y2UwNjZiY2E4MzEzYyZpZD00NmNkMTY0NjRhIiBtZXRob2Q9InBvc3QiIGlkPSJtYy1lbWJlZGRlZC1zdWJzY3JpYmUtZm9ybSIgbmFtZT0ibWMtZW1iZWRkZWQtc3Vic2NyaWJlLWZvcm0iIGNsYXNzPSJ2YWxpZGF0ZSIgdGFyZ2V0PSJfYmxhbmsiIG5vdmFsaWRhdGU+DQoJDQo8ZGl2IGNsYXNzPSJtYy1maWVsZC1ncm91cCI+DQoJPGxhYmVsIGZvcj0ibWNlLUVNQUlMIj5FbWFpbCBBZGRyZXNzIDwvbGFiZWw+DQoJPGlucHV0IHR5cGU9ImVtYWlsIiB2YWx1ZT0iIiBuYW1lPSJFTUFJTCIgY2xhc3M9InJlcXVpcmVkIGVtYWlsIiBpZD0ibWNlLUVNQUlMIj4NCjwvZGl2Pg0KPGRpdiBjbGFzcz0ibWMtZmllbGQtZ3JvdXAiPg0KCTxsYWJlbCBmb3I9Im1jZS1GTkFNRSI+Rmlyc3QgTmFtZSA8L2xhYmVsPg0KCTxpbnB1dCB0eXBlPSJ0ZXh0IiB2YWx1ZT0iIiBuYW1lPSJGTkFNRSIgY2xhc3M9IiIgaWQ9Im1jZS1GTkFNRSI+DQo8L2Rpdj4NCgk8ZGl2IGlkPSJtY2UtcmVzcG9uc2VzIiBjbGFzcz0iY2xlYXIiPg0KCQk8ZGl2IGNsYXNzPSJyZXNwb25zZSIgaWQ9Im1jZS1lcnJvci1yZXNwb25zZSIgc3R5bGU9ImRpc3BsYXk6bm9uZSI+PC9kaXY+DQoJCTxkaXYgY2xhc3M9InJlc3BvbnNlIiBpZD0ibWNlLXN1Y2Nlc3MtcmVzcG9uc2UiIHN0eWxlPSJkaXNwbGF5Om5vbmUiPjwvZGl2Pg0KCTwvZGl2PiAgICA8IS0tIHJlYWwgcGVvcGxlIHNob3VsZCBub3QgZmlsbCB0aGlzIGluIGFuZCBleHBlY3QgZ29vZCB0aGluZ3MgLSBkbyBub3QgcmVtb3ZlIHRoaXMgb3IgcmlzayBmb3JtIGJvdCBzaWdudXBzLS0+DQogICAgPGRpdiBzdHlsZT0icG9zaXRpb246IGFic29sdXRlOyBsZWZ0OiAtNTAwMHB4OyI+PGlucHV0IHR5cGU9InRleHQiIG5hbWU9ImJfNWVmNTVhYmVlMDI3Y2UwNjZiY2E4MzEzY180NmNkMTY0NjRhIiB2YWx1ZT0iIj48L2Rpdj4NCgk8ZGl2IGNsYXNzPSJjbGVhciI+PGlucHV0IHR5cGU9InN1Ym1pdCIgdmFsdWU9IlN1YnNjcmliZSIgbmFtZT0ic3Vic2NyaWJlIiBpZD0ibWMtZW1iZWRkZWQtc3Vic2NyaWJlIiBjbGFzcz0iYnV0dG9uIj48L2Rpdj4NCjwvZm9ybT4NCjwvZGl2Pg0KDQo8IS0tRW5kIG1jX2VtYmVkX3NpZ251cC0tPiI7czoxOToiZm9vdGVyX3NvY2lhbF9pY29ucyI7czoyODoiPGg0PkZvb3RlciBTb2NpYWwgSWNvbnM8L2g0PiI7czoxOToic29jaWFsX2ljb25zX2Zvb3RlciI7czoxOiIxIjtzOjIyOiJzb2NpYWxfZmFjZWJvb2tfZm9vdGVyIjtzOjMwOiJodHRwOi8vZmFjZWJvb2suY29tL3NrYXRkZXNpZ24iO3M6MjE6InNvY2lhbF90d2l0dGVyX2Zvb3RlciI7czoyOToiaHR0cDovL3R3aXR0ZXIuY29tL3NrYXRkZXNpZ24iO3M6MjI6InNvY2lhbF9saW5rZWRpbl9mb290ZXIiO3M6Mzc6Imh0dHA6Ly93d3cubGlua2VkaW4uY29tL2luL3NrYXRkZXNpZ24iO3M6MjQ6InNvY2lhbF9nb29nbGVwbHVzX2Zvb3RlciI7czo1MjoiaHR0cHM6Ly9wbHVzLmdvb2dsZS5jb20vdS8wL2IvMTE2MDA4ODM2MDQ4NTIwMDkwNzM4LyI7czoyMToic29jaWFsX3lvdXR1YmVfZm9vdGVyIjtzOjMyOiJodHRwczovL3d3dy55b3V0dWJlLmNvbS96YWJlc3RvZiI7czoxOToic29jaWFsX3ZpbWVvX2Zvb3RlciI7czoxOiIjIjtzOjIzOiJzb2NpYWxfcGludGVyZXN0X2Zvb3RlciI7czoxOiIjIjtzOjIzOiJzb2NpYWxfaW5zdGFncmFtX2Zvb3RlciI7czoxOiIjIjtzOjE3OiJzb2NpYWxfcnNzX2Zvb3RlciI7czoyODoiaHR0cDovL2NoYXJpdHkuc2thdC50Zi9mZWVkLyI7czoyMjoiZm9vdGVyX2NvcHlyaWdodF90aXRsZSI7czoyNjoiPGg0PkNvcHlyaWdodCBTZWN0aW9uPC9oND4iO3M6OToiY29weXJpZ2h0IjtzOjA6IiI7czoxNDoidHJhY2tpbmdfdGl0bGUiO3M6MjI6IjxoND5UcmFja2luZyBDb2RlPC9oND4iO3M6MTQ6ImFuYWx5dGljc19jb2RlIjtzOjA6IiI7czoxNjoibWFpbl90aGVtZV9jb2xvciI7czo3OiIjZjVmMjE5IjtzOjk6ImZhdl90aXRsZSI7czoxNjoiPGg0PkZhdmljb248L2g0PiI7czo3OiJmYXZpY29uIjtzOjA6IiI7czoxMDoiY3VzdG9tX2NzcyI7czowOiIiO3M6MTE6ImV2ZW50c19zbHVnIjtzOjExOiJldmVudHMtcGFnZSI7czoxMjoiYmxvZ19zaWRlYmFyIjtzOjU6InJpZ2h0IjtzOjE2OiJ0aGVtZV9wYWdpbmF0aW9uIjtzOjE6IjIiO3M6MTM6InNoYXJpbmdfaWNvbnMiO3M6MToiMSI7czoxOToic2hhcmVfaWNvbl9mYWNlYm9vayI7czoxOiIxIjtzOjE4OiJzaGFyZV9pY29uX3R3aXR0ZXIiO3M6MToiMSI7czoyMToic2hhcmVfaWNvbl9nb29nbGVwbHVzIjtzOjE6IjEiO3M6MjA6InNoYXJlX2ljb25fZGVsaWNpb25zIjtzOjE6IjEiO3M6MTg6InNoYXJlX2ljb25fc3R1bWJsZSI7czoxOiIxIjtzOjE1OiJzaGFyZV9pY29uX2RpZ2ciO3M6MToiMSI7czoxNzoic2hhcmVfaWNvbl9yZWRkaXQiO3M6MToiMSI7czoxNjoic2hhcmVfaWNvbl9lbWFpbCI7czoxOiIxIjtzOjE4OiJuYXZfbWVudV9sb2NhdGlvbnMiO2E6MTp7czoxMToiSGVhZGVyIE1lbnUiO2k6Mjt9czoxMDoiYXV0aG9yX2JveCI7czoxOiIxIjtzOjE2OiJjdXN0b21fY3NzX3RpdGxlIjtzOjE4OiI8aDQ+Q3VzdG0gQ1NTPC9oND4iO3M6OToib2ZfYmFja3VwIjtzOjA6IiI7czoxMToib2ZfdHJhbnNmZXIiO3M6MDoiIjt9</textarea>
+		<h2 id="setup-blog" class="separator">10. Setting up Blog Page & Home Page</h2>
+		<img src="images/readingsettings.png" alt="readingsettings" width="487" height="185" class="right">
+		<p><strong>Blog</strong><br />
+			To Set up a Blog go to your WordPress Admin Area and navigate to <strong>Pages > Add New</strong>. Choose a title like "Blog", set the page template as "Blog" or "Blog Masonry", leave the Editor blank and click the publish button.</p>
+		<p><strong>Home</strong><br />
+			To set up the Home Page of your theme go to your WordPress Admin Area and navigate to<strong> Pages > Add New</strong>. Choose a Title like "Home", select the "Full-Width" Template in the &quot;Page Attribute&quot;s. Add your content or copy one of the codes above, set a Slider (for mor Information see the Slider Section) and click the publish button. Now go to <strong>Settings > Reading</strong> select "A static page" and choose "Home" for the Front Page.</p>
+		<div class="clear"></div>
+		<div class="hr2"></div>
+		<h2 id="menu-reading" class="separator">11. Setting up Menu</h2>
+		<p>You have to set up custom menus, for your Navigation to work properly. This Theme comes with a custom menu location at the top of the Page - the "Main Navigation". Go to your WordPress Admin Area and navigate to <strong>Appearance > Menus</strong>. Now click "add menu". You can display Custom Links, Pages and Categories in your Custom Menu. Once you are finished with your Menu, choose the Menu you just created in the "Theme Locations" Panel for the Main Navigation.</p>
+		
+		<p>
+		To display an icon right before your menu item go to this page: http://fortawesome.github.io/Font-Awesome/cheatsheet/ choose your icon and copy the text of the icon (eg. fa-search). Now, in the title attribute of your menu item insert "fa" followed by the slected icon text. Eg: fa fa-search.
+		</p>
+		<img src="images/custommenu.png" alt="custommenu" width="940" height="317">
+		<h2 id="custom-sidebars" class="separator">12. Custom Sidebars</h2>
+		<img src="images/sidebars.png" alt="sidebars" width="579" height="308" class="right"> <img src="images/choosesidebar.png" alt="choosesidebar" width="579" height="156" class="right">
+		<p>There are 5 pre-defined sidebar areas that come with this theme - Main Sidebar, Footer Left Sidebar, Footer Middle Sidebar and Footer Right Sidebar. Here you can drop your Widgets. You can also define custom sidebars for each page.</p>
+		<p><strong>To create Custom Sidebars, follow these steps:</strong></p>
+		<ul>
+			<li>Navigate to <strong>Appearance > Sidebars</strong>.</li>
+			<li>Click Add New Sidebar, choose a Name and click OK to save it.</li>
+			<li>Now you can add Widgets to your Sidebar under <strong>Appearance > Widgets</strong>.</li>
+			<li>Once you've added your Widgets you can select your Sidebar when creating a new page at the bottom of the Page. Just select your sidebar and choose the "Default" page template or "Sidebar Right" page template from the "Page Attributes".</li>
+		</ul>
+		<h2 id="customwidgets" class="separator">13. Custom Widgets</h2>
+		<p>Your new Theme comes with 6 custom widget. All custom widgets are highlighted in blue and can be found in your WordPress Admin Area under <strong>Appearance > Widgets</strong>. Here you find several areas where you can drop the widgets. In the Footer Area you can drop up to 3 Widgets, which will be displayed next to each other. The "Blog Sidebar" is the sidebar area of the Blog section.</p>
+		<h2 id="slider" class="separator">14. Setting up Sliders</h2>
+<p>The Revolution Slider plugin is included in this theme. Please check the official Revolution Slider Documentation I've included in this package.</p>
+<p><strong>Note:</strong> For the homepage slider you'll need to create a slider with the alias "homeslider".</p>
+
+		<p><strong>Here's a short video of how to set up home slider</strong></p>
+		<div class="sd-video">
+		<iframe src="http://www.youtube.com/embed/8Uvpv6zKoGE?hd=1&amp;vq=hd1080&amp;rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+		</div>
+		
+		<h2 id="shortcodes" class="separator">15. Shortcodes</h2>
+		<p>This theme comes with some very useful shortcodes included. Shortcodes are a very powerful way to insert custom functions directly into the main content of a WordPress page or post. You can use them in Blog Posts, Pages and even Widgets and Widget Titles. Just click on a Shortcode Button and adjust the settings, then publish the page.</p>
+		<img src="images/shortcodes.png" alt="shortcodes" width="886" height="365">
+		<div class="hr2"></div>
+		<h2>Here's the full list of shortcodes:</h2>
+		<div class="hr2"></div>
+		<h3>Flexible Columns</h3>
+		<textarea class="codecopy">
+[one_half] ... content ... [/one_half]
+[one_half_last] ... content ... [/one_half_last]
+[one_third] ... content ... [/one_third]
+[one_third_last] ... content ... [/one_third_last]
+[one_fourth] ... content ... [/one_fourth]
+[one_fourth_last] ... content ... [/one_fourth_last]
+[one_fifth] ... content ... [/one_fifth]
+[one_fifth_last] ... content ... [/one_fifth_last]
+[one_sixth] ... content ... [/one_sixth]
+[one_sixth_last] ... content ... [/one_sixth_last]
+[two_third] ... content ... [/two_third]
+[two_third_last] ... content ... [/two_third_last]
+[two_fifth] ... content ... [/two_fifth]
+[two_fifth_last] ... content ... [/two_fifth_last]
+[three_fourth] ... content ... [/three_fourth]
+[three_fourth_last] ... content ... [/three_fourth_last]
+[three_fifth] ... content ... [/three_fifth]
+[three_fifth_last] ... content ... [/three_fifth_last]
+[four_fifth] ... content ... [/four_fifth]
+[four_fifth_last] ... content ... [/four_fifth_last]
+[five_sixth] ... content ... [/five_sixth]
+[five_sixth_last] ... content ... [/five_sixth_last]
+</textarea>
+		<div class="hr2"></div>
+		<h3>Dividers</h3>
+		<textarea class="codecopy">
+[divider type="line" margintop="20" marginbottom="20"]
+
+[divider type="space" margintop="20" marginbottom="20"]
+</textarea>
+		<div class="hr2"></div>
+		<h3>Video</h3>
+		<textarea class="codecopy">
+[sd_video type="youtube" width="500" height="281" id="1iIZeIy7TqM"]
+
+[sd_video type="vimeo" width="500" height="281" id="29950141" autoplay="yes"]
+</textarea>
+		<div class="hr2"></div>
+		<h3>Framed Image</h3>
+		<textarea class="codecopy codecopy-short">
+[framed_image align="left/right"] <img src="your-image-url-here"/> [/framed_image]
+</textarea>
+		<div class="hr2"></div>
+		<h3>Highlight</h3>
+		<textarea class="codecopy codecopy-short">
+[highlight bg="#f00000" text="#ffffff"] ... text here ... [/highlight]
+</textarea>
+		<div class="hr2"></div>
+		<h3>Full Background</h3>
+		<textarea class="codecopy codecopy-short">
+[sd_full_bg bg="#f5f219" text="#1c1c1c"] ... content here ... [/sd_full_bg]
+</textarea>
+		<div class="hr2"></div>
+		<h3>Centered Section</h3>
+		<textarea class="codecopy codecopy-short">
+[sd_centered] ... content here ... [/sd_centered]
+</textarea>
+		<div class="hr2"></div>
+		<h3>Latest Posts</h3>
+		<textarea class="codecopy codecopy-short">
+[sd_blog cats="1, 3, 5"] where 1, 3, 5 are the cateogry ids
+</textarea>
+		<div class="hr2"></div>
+		<h3>Person Info</h3>
+		<textarea class="codecopy codecopy-short">
+[sd_person name="John Doe" subtitle="CEO" photo="img-url-here" facebook="facebook url" twitter="twitter url" googleplus="google+ url" linkedin="linkedin url"]
+</textarea>
+		<div class="hr2"></div>
+		<h3>Donation Bar</h3>
+		<textarea class="codecopy codecopy-short">
+[sd_percentage]
+</textarea>
+
+		<div class="hr2"></div>
+		<h3>Latest Donations</h3>
+		<textarea class="codecopy codecopy-short">
+[sd_donations]
+</textarea>
+
+		<div class="hr2"></div>
+		<h3>Tooltip</h3>
+		<textarea class="codecopy codecopy-short">
+[tooltip text="This is a tooltip"] ... text here ... [/tooltip]
+</textarea>
+		<div class="hr2"></div>
+		<h3>Skill</h3>
+		<textarea class="codecopy codecopy-short">
+[skill percentage="90" color="#8fd5e7" title="Web Design"]
+</textarea>
+		<div class="hr2"></div>
+		<h3>Google Map</h3>
+		<textarea class="codecopy" >
+[googlemap id="my-map2" width="436" height="280" address="your-address" zoom="15" popup="popup-text-here" maptype="ROADMAP/SATELLITE/HYBRID/TERRAIN"]
+</textarea>
+		<div class="hr2"></div>
+		<h3>Toggle</h3>
+		<textarea class="codecopy codecopy-short" >
+[toggle title="my-toggle-title"] ... text here ... [/toggle]
+</textarea>
+		<div class="hr2"></div>
+		<h3>Tabs</h3>
+		<textarea class="codecopy" >
+[tabs]
+[tab title="Tab 1"] ... tab 1 content ... [/tab]
+[tab title="Tab 2"] ... tab 2 content ... [/tab]
+[tab title="Tab 3"] ... tab 3 content ... [/tab]
+[/tabs]
+</textarea>
+		<div class="hr2"></div>
+		<h3>Accordions</h3>
+		<textarea class="codecopy" >
+[accordions]
+[accordion title="Accordion 1"] ... accordion 1 content ... [/accordion]
+[accordion title="Accordion 2"] ... accordion 2 content ... [/accordion]
+[accordion title="Accordion 3"] ... accordion 3 content ... [/accordion]
+[/accordions]</textarea>
+		<div class="hr2"></div>
+		<h3>Colored Button</h3>
+		<textarea class="codecopy codecopy-short" >
+[button link="your-url-here" size="large/medium/small" textcolor="#ffffff" bgcolor="#f00000" radius="30px" rel="nofollow" align="left/right" target="_blank/_self/_parent"]
+</textarea>
+		<div class="hr2"></div>
+		<h3>Pricing Table</h3>
+		<textarea class="codecopy">
+[pricing_table]
+
+[pricing_column width="200px" title="Basic" price="$9" decimals=".99" desc="per month" button_text="Sign Up!" button_url="#" button_target="_blank" button_rel="nofollow"]
+<ul>
+<li><strong>1GB</strong> Disk Space</li>
+<li><strong>10GB</strong> Monthly Bandwidth</li>
+<li><strong>2</strong> Email Accounts</li>
+<li><strong>Unlimited</strong> subdomains</li>
+</ul>
+[/pricing_column]
+
+[pricing_column width="200px" title="Standard" price="$19" desc="per month" button_text="Sign Up!" button_url="#" button_target="_blank" button_rel="nofollow"]
+<ul>
+<li><strong>3GB</strong> Disk Space</li>
+<li><strong>25GB</strong> Monthly Bandwidth</li>
+<li><strong>5</strong> Email Accounts</li>
+<li><strong>Unlimited</strong> subdomains</li>
+</ul>
+[/pricing_column]
+
+[pricing_column width="200px" featured="yes" title="Professional" price="$29" desc="per month" button_text="Sign Up!" button_url="#" button_target="_blank" button_rel="nofollow"]
+<ul>
+<li><strong>5GB</strong> Disk Space</li>
+<li><strong>50GB</strong> Monthly Bandwidth</li>
+<li><strong>10</strong> Email Accounts</li>
+<li><strong>Unlimited</strong> subdomains</li>
+</ul>
+[/pricing_column]
+
+[pricing_column width="200px" title="Enterprise" price="$29" desc="per month" button_text="Sign Up!" button_url="#" button_target="_blank" button_rel="nofollow"]
+<ul>
+<li><strong>10GB</strong> Disk Space</li>
+<li><strong>100GB</strong> Monthly Bandwidth</li>
+<li><strong>20</strong> Email Accounts</li>
+<li><strong>Unlimited</strong> subdomains</li>
+</ul>
+[/pricing_column]
+
+
+[/pricing_table]
+</textarea>
+<div class="hr2"></div>
+		<h3>Call to Action Box</h3>
+		<textarea class="codecopy" >
+[sd_action_box bgcolor="#f5f219" textcolor="1e1d1c"] ... content here ... [/sd_action_box]
+</textarea>
+		<h2 id="campaign" class="separator">16. Configure the campaign plugin and create a campaign.</h2>
+		
+		<p>Once the theme and required plugins are installed you'll need to configure the campaign plugin. You can do this by going to your WordPress dashboard > Campaigns > Settings.</p>
+		
+		<p>The following shortcodes are used within the theme, for the campaign settings:</p>
+		<ul>
+			<li><strong>Checkout page:</strong> [download_checkout]</li>
+			<li><strong>Purchase confirmation and receipt:</strong> [edd_receipt]</li>
+		</ul>
+		<br/>
+		<p>You can link any button or text to the donate from by setting it up with this in the place of the URL: <strong>#sd-modal-button-form</strong> and add it this rel attribute: <strong>prettyPhoto</strong>. </p>
+		<br/>
+		<p><strong>Frequently Asked Question</strong></p>
+		
+		<p><strong>Q:</strong>Can I use other payment gateways besides the default PayPal?</p>
+		<p><strong>A:</strong>Yes, you can. You can use the following: PayPal Adaptive Payments, Stripe or WePay but note that as I didn't develop any of these plugins you're on your own with further developing and implementation. <br/></p>
+		
+		<ul class="sd-list-style">
+		<li>You can purchase the PayPal Adaptive Payments plugin for Easy Digital Downloads <a href="http://bit.ly/15mYx6Q" target="_blank">here</a>. More documentation can be found <a href="https://easydigitaldownloads.com/docs/paypal-adaptive-payments-setup/" target="_blank">here</a>.</li>
+		<li>You can purchase the Stripe Payments plugin for Easy Digital Downloads from <a href="https://easydigitaldownloads.com/extension/stripe-payment-gateway?ref=7" target="_blank">here</a>. More documentation can be found <a href="https://easydigitaldownloads.com/docs/stripe-payment-gateway/" target="_blank">here</a>.</li>
+		<li>You can purchase the WePay Payment Gateway plugin for Easy Digital Downloads <a href="https://easydigitaldownloads.com/extensions/wepay-payment-gateway/?ref=7" target="_blank">here</a>. More documentation can be found <a href="https://easydigitaldownloads.com/docs/wepay-payment-gateway-documentation?ref=7" target="_blank">here</a>.</li>
+		</ul>
+		
+		<br/>
+		<p><strong>Note:</strong> While there are other options, they are not used by the Charity theme.</p>
+		
+		<p><strong>Here's a short video of how to configure the campaign plugin and how to create a campaign:</strong></p>
+		
+		<div class="sd-video">
+		<iframe src="http://www.youtube.com/embed/yQW37wt2gbg?hd=1&amp;vq=hd1080&amp;rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+		</div>
+		
+		<h2 id="translation" class="separator">16. Translation</h2>
+		<p>This theme is translation ready! The translation files .po/.mo are located in <code>framework/lang</code> in the theme's folder.</p>
+		<p><strong>To translate the theme, simply follow these steps:</strong></p>
+		<ul>
+			<li>Duplicate the default.po file and rename it to your language (for English it's en_EN.po)</li>
+			<li>Edit the new .po file using POEdit (<a href="http://www.poedit.net/">http://www.poedit.net/</a>)</li>
+			<li>Hit save, a new .mo file should be created.</li>
+		</ul>
+		<p class="info">I constantly develop new features, so after downloading a new version we recommend to check that everything is correctly translated.</p>
+		<h2 id="css-javascript" class="separator">17. CSS & Javascript</h2>
+		<ol>
+			<li>style.css <em>- Default CSS</em></li>
+			<li>bootstrap-fontawesome.css <em>- CSS for the grid layout and other elements</em></li>
+			<li>flexslider.css<em>- CSS for the FlexSlider</em></li>
+			<li>prettyPhoto<em>- CSS for prettyPhoto Lightbox</em></li>
+			<li>bootstrap-responsive.css<em>- Manages Responsiveness</em></li>
+			<li>custom-styles.css<em>- CSS for the custom settings saved in the theme options page</em></li>
+		</ol>
+		<p>This theme imports some useful Javascript files.</p>
+		<ol>
+			<li>jQuery</li>
+			<li>jQuery flexslider</li>
+			<li>jQuery MobileMenu</li>
+			<li>jQuery superfish</li>
+			<li>jQuery prettyPhoto</li>
+			<li>jQuery Isotope</li>
+			<li>jQuery preloader</li>
+			<li>jQuery HTML5</li>
+			<li>custom.js</li>
+		</ol>
+		<h2 id="credits" class="separator">18. Credits</h2>
+		<p>I've used the following images, icons or other files as listed. Isotope and Revolution Slider Plugin (Commercial License) is included, so you don't need to purchase your own license.
+		<ul>
+			<li><a href="http://jquery.com" target="_blank">jQuery</a></li>
+			<li><a href="http://flexslider.com" target="_blank">jQuery Flexslider Plugin</a></li>
+			<li><a href="https://github.com/sy4mil/Options-Framework" target="_blank">SMOF Options Framework</a></li>
+			<li><a href="http://www.deluxeblogtips.com/meta-box" target="_blank">Meta-Box Script</a></li>
+			<li><a href="http://gis.yohman.com/gmaps-plugin/" target="_blank">Google Maps Shortcode</a></li>
+			<li><a href="http://github.com/mambows/mobilemenu" target="_blank">Mobilemenu</a></li>
+			<li><a href="http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/" target="_blank">prettyPhoto</a></li>
+			<li><a href="http://users.tpg.com.au/j_birch/plugins/superfish/" target="_blank">superfish</a></li>
+			<li><a href="http://www.woothemes.com/flexslider/" target="_blank">Flexslider</a></li>
+			<li><a href="http://www.getson.info" target="_blank">Sidebars Generator</a></li>
+			<li><a href="http://isotope.metafizzy.co/" target="_blank">Isotope</a></li>
+            <li><a href="http://fortawesome.github.io/Font-Awesome/" target="_blank">Font Awesome</a></li>
+			<li><a href="http://astoundify.com/" target="_blank">Crowdfunding by Astoundify</a></li>
+			<li>Some of our demo images are courtesy of <a href="http://plainjoephotoblog.com/" target="_blank">EDWARD MCGOWAN.</a></li>
+		</ul>
+		<div class="hr"></div>
+		<p>Once again, thank you so much for purchasing this theme. As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme. No guarantees, but I'll do my best to assist. If you have a more general question relating to the themes on ThemeForest, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p>
+		<p class="append-bottom alt large"><strong>Best Regards,<br />Chris</strong></p>
+	</div>
+	<!-- sixxten wrap --> 
+	
+</div>
+<!-- container -->
+
+<div id="footer">
+	<div class="container">
+		<div class="sixteen columns">© 2013 <a href="http://skat.tf">skat.tf</a><br />
+			All Rights Reserved </div>
+	</div>
+</div>
+
+<!-- End Document
+================================================== --> 
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script> 
+<script src="https://raw.github.com/davatron5000/FitVids.js/master/jquery.fitvids.min.js"></script> 
+<script type="text/javascript">
+		$(".container").fitVids();
+		
+$(document).ready(function() {
+  function filterPath(string) {
+  return string
+    .replace(/^\//,'')
+    .replace(/(index|default).[a-zA-Z]{3,4}$/,'')
+    .replace(/\/$/,'');
+  }
+  var locationPath = filterPath(location.pathname);
+  var scrollElem = scrollableElement('html', 'body');
+ 
+  $('a[href*=#]').each(function() {
+    var thisPath = filterPath(this.pathname) || locationPath;
+    if (  locationPath == thisPath
+    && (location.hostname == this.hostname || !this.hostname)
+    && this.hash.replace(/#/,'') ) {
+      var $target = $(this.hash), target = this.hash;
+      if (target) {
+        var targetOffset = $target.offset().top;
+        $(this).click(function(event) {
+          event.preventDefault();
+          $(scrollElem).animate({scrollTop: targetOffset}, 400, function() {
+            location.hash = target;
+          });
+        });
+      }
+    }
+  });
+ 
+  // use the first element that is "scrollable"
+  function scrollableElement(els) {
+    for (var i = 0, argLength = arguments.length; i <argLength; i++) {
+      var el = arguments[i],
+          $scrollElement = $(el);
+      if ($scrollElement.scrollTop()> 0) {
+        return el;
+      } else {
+        $scrollElement.scrollTop(1);
+        var isScrollable = $scrollElement.scrollTop()> 0;
+        $scrollElement.scrollTop(0);
+        if (isScrollable) {
+          return el;
+        }
+      }
+    }
+    return [];
+  }
+ 
+});
+		
+</script>
+</body>
+</html>
